@@ -195,14 +195,6 @@ footer {
 	opacity:0;
 	transition:.5s;
 }
-
-.box2 {
-	display: none;
-}
-.box3 {
-	display: none;
-}
-
 .box1.io {
 	opacity:1;
 }
