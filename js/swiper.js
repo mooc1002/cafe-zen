@@ -1,8 +1,7 @@
 
   var swiper = new Swiper(".mySwiper", {
-        effect: "cube",
+        effect: "fade",
       	speed: 500,
-        grabCursor: true,
         cubeEffect: {
           loop: true,
           shadow: false,
