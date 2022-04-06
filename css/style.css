@@ -279,6 +279,7 @@ footer {
  .swiper {
         width: 300px;
         height: 300px;
+		box-shadow: 0 10px 10px #333;
       }
 
       .swiper-slide {
@@ -493,6 +494,11 @@ button {
 
 
 	/*interior*/
+
+	.swiper {
+		width: 250px;
+		height: 250px;
+	}
 	
 	.gallery {
 		flex-direction: column;
