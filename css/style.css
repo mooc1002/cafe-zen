@@ -73,7 +73,7 @@ ul li a {
 	padding:5px;
 	background-color:rgba(0, 0, 0, .5);
 	color:#fff;
-	font-size: 180% ;
+	font-size: 2vw;
 }
 
 .intro {
@@ -137,9 +137,10 @@ ul li a {
 
 
 .news dl{
-	width:40%;
+	width:50%;
 	padding:10px;
 	display:flex;
+	justify-content: space-around;
 	border-bottom:2px dotted black;
 }
 
@@ -149,6 +150,7 @@ dt {
 
 dd {
 	width:80%;
+	padding-left: 10%;
 }
 
 
@@ -264,7 +266,7 @@ footer {
 
 .left p {
 	margin-top:10px;
-	width:50%;
+	width:60%;
 	line-height:1.78;
 }
 
@@ -279,7 +281,6 @@ footer {
  .swiper {
         width: 300px;
         height: 300px;
-		box-shadow: 0 10px 10px #333;
       }
 
       .swiper-slide {
@@ -442,6 +443,10 @@ button {
 		flex-direction: column;
 	}
 
+	.pic {
+		background-attachment: scroll;
+	}
+
 	.detail p {
 		width: 90%;
 		line-height: 1.5;
@@ -453,6 +458,7 @@ button {
 
 	dt {
 		width: 30%;
+		padding-left: 10%;
 	}
 
 	dd {
