@@ -390,6 +390,8 @@ button {
 	display: none;
 }
 
+/*ここからレスポンシブ*/
+
 
 @media screen and (max-width: 768px) {
 	h2,h3 {
@@ -403,7 +405,7 @@ button {
 	.burger {
 		position: absolute;
 		top: 0;
-		right: 0;
+		right: 10px;
 		width: 50px;
 		height: 50px;
 		display: block;
@@ -592,7 +594,7 @@ button {
 	.nav .open-burger {
 		position: absolute;
 		top: 0;
-		right: 0;
+		right: 10px;
 	}
 
 	.open-burger span.cross {
