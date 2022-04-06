@@ -7,8 +7,8 @@
           loop: true,
           shadow: false,
           slideShadows: true,
-       //   shadowOffset: 20,
-        //  shadowScale: 0.94,
+         // shadowOffset: 20,
+         // shadowScale: 0.94,
 		  touchRatio: 3,
 		},
         autoplay: {
