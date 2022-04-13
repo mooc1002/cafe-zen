@@ -52,8 +52,8 @@ ul li a {
 	justify-content:center;
 	align-items:center;
 	height:80vh;
-	background-image:url(../images/mainvisual.jpg);
-	background-size:cover;
+	background-image:url(../images/cafehouse.jpg);
+	background-size: cover;
 }
 
 .phrase {
@@ -166,8 +166,9 @@ footer {
 
 /*メニューページ*/
 .menu {
+	color: #fff;
 	padding:50px 0;
-	background-image:url(../images/menuVisual.jpg);
+	background-image:url(../images/wood.jpg);
 	background-size:cover;
 }
 
@@ -183,7 +184,6 @@ footer {
 .commerce {
 	font-family:Cambria;
 	background-color:#333;
-	color:#fff;
 	text-align:center;
 	width:10%;
 	margin-left:100px;
@@ -217,7 +217,6 @@ footer {
 .tile img {
 	width: 200px;
 	height: 200px;
-	object-fit:cover;
 	box-shadow:0 0 10px white;
 }
 
@@ -227,6 +226,14 @@ footer {
 
 .tile p {
 	width:55%;
+	height: 80px;
+}
+
+.price {
+	text-align: center;
+	font-weight:  bold;
+	margin-top: 5px;
+	letter-spacing: 2px;
 }
 
 
@@ -339,7 +346,7 @@ th, td {
 /*お問い合わせ*/
 .contact {
 	position:relative;
-	background-image:url(../images/wood.jpg);
+	background-image:url(../images/texture.jpg);
 	background-size:cover;
 	background-color:lightgray;
 	padding:50px 0 100px;
