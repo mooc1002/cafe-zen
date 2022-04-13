@@ -576,7 +576,7 @@ button {
 
 	form {
 		width: 90%;
-		padding: 0;
+		padding: 0 0 10px;
 	}
 
 	form p {
